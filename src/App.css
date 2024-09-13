@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100vw;
+  padding: 15px 10px;
+  background-color: #349adfce;
+  color:#fff;
+}
+.section-todoapp{
+  width:990px;
+margin: 25px auto;
+  display: flex;
+  justify-content: center;
+}
+.todoapp-content1{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 10px 20px;
+}
+.todoapp-content1 .todo-btn{
+  box-sizing: border-box;
+background-color: #349adfce;
+  width: 200px;
+  color: #fff;
+  padding: 10px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+}
+.todoapp-content1 .todo-input{
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+
+  width: 600px;
+  padding: 10px 10px;
+}
+.todolist-item{
+  width: 990px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  
+}
+.todolist-item ul li{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(128, 128, 128, 0.132);
+  font-size: 16px;
+}
+.todolist-item ul li .cross-btn{
+  
+  /*border: 1px solid rgba(128, 128, 128, 0.132);*/
+  font-size: 20px;
+  color: red;
+  padding: 5px 10px;
+
+}
+.todolist-item ul li .data{
+  
+  font-size: 16px;
+  padding: 5px 10px;
+
+}
+
+        /*******************foooter section*************/
+        
+        .section-footer{
+          bottom: 0;
+          position: absolute;
+          width:100%;
+          margin: 0px auto;
+          padding: 15px 5px;
+          text-align: center;
+          color: gray;
+          border-top: 1px solid #80808044;
+          background-color: white;
+}
+
+

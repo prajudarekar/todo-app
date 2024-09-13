@@ -1,0 +1,56 @@
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+
+    .header{
+        width: 100vw;
+        display: flex;
+    }
+    .section-todoapp{
+        width:100%;
+      margin: 25px auto;
+        display: flex;
+        justify-content: center;
+      }
+    .todoapp-content1{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+      }
+      .todoapp-content1 .todo-btn{
+        box-sizing: border-box;
+      background-color: #349adfce;
+        color: #fff;
+        width: 100px;
+
+        padding: 10px 10px;
+        border: 1px solid rgba(128, 128, 128, 0.6);
+      }
+      .todoapp-content1 .todo-input{
+        box-sizing: border-box;
+        width: 350px;
+        border: 1px solid rgba(128, 128, 128, 0.6);  
+        padding: 10px 10px;
+      }
+
+      .todolist-item{
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .todolist-item ul li{
+        width: 300px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgba(128, 128, 128, 0.132);
+        font-size: 16px;
+      }
+      .section-footer{
+    width: 100%;  
+    padding: 20px 10px;
+    text-align: center;
+    }
+  }
