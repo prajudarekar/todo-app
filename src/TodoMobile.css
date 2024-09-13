@@ -35,6 +35,7 @@
       }
 
       .todolist-item{
+        overflow: hidden;
         width: 200px;
         margin: 0 auto;
         display: flex;

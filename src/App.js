@@ -5,11 +5,13 @@ import Header from "./Header";
 import Footer from "./Footer";
 function App() {
   return (
-    <div className="box">
+    <>
       <Header />
-      <TodoApp />
+      <main className="main">
+        <TodoApp />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

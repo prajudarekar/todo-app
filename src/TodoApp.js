@@ -15,7 +15,7 @@ function TodoApp() {
     setTodoList(newarr);
   }
   return (
-    <>
+    <section>
       <div className="section-todoapp">
         <form onSubmit={checkSubmit}>
           <div className="todoapp-content1">
@@ -47,7 +47,7 @@ function TodoApp() {
           );
         })}
       </div>
-    </>
+    </section>
   );
 }
 
